@@ -1,0 +1,107 @@
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* container-1 */
+.title {
+  padding: 20px 0;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  display: block;
+}
+
+.title-1, .title-2 {
+  margin: 0;
+  color: hsl(234, 12%, 34%);
+}
+
+.title-1 {
+  font-weight: 200;
+}
+
+.title-2 {
+  font-weight: 600;
+}
+
+p {
+  color: grey;
+  font-weight: 400;
+}
+
+/* container-2 */
+.cards {
+  padding: 3% 5%;
+  overflow: auto;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+  overflow: auto;
+  width: 25%;
+  box-shadow: 0 5px 20px grey;
+  border-top: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.card-2, .card-3 {
+  margin: 20px auto;
+  bottom: 300px;
+}
+
+.card-1 {
+  border-color: hsl(180, 62%, 55%);
+  top: 130px;
+  left: 50px;
+}
+
+.card-2 {
+  border-color: hsl(0, 78%, 62%);
+}
+
+.card-3 {
+  border-color: hsl(34, 97%, 64%);
+}
+
+.card-4 {
+  border-color: hsl(212, 86%, 64%);
+  float: right;
+  bottom: 700px;
+  right: 50px;
+}
+
+img {
+  float: right;
+  padding: 10px;
+}
+
+h2 {
+  color: hsl(234, 12%, 34%);
+}
+
+/* Media Query */
+@media(max-width:1024px){
+  .title{
+    width:80%;
+  }
+  .card-1, .card-2, .card-3, .card-4 {
+    display: block;
+    margin:auto;
+    position:static;
+    width: 80%;
+    margin:20px auto;
+    float: none;
+  }
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
